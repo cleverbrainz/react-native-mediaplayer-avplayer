@@ -1,6 +1,6 @@
 {
   "name": "react-native-mediaplayer-avplayer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Android MediaPlayer, iOS AVPlayer",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -77,12 +77,6 @@
       "<rootDir>/example/node_modules",
       "<rootDir>/lib/"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "yarn lint && yarn typescript"
-    }
   },
   "commitlint": {
     "extends": [
